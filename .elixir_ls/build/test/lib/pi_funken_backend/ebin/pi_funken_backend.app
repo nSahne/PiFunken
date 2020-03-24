@@ -1,0 +1,11 @@
+{application,pi_funken_backend,
+             [{applications,[kernel,stdlib,elixir,logger,cowboy,plug,jason,
+                             plug_cowboy]},
+              {description,"pi_funken_backend"},
+              {modules,['Elixir.PiFunkenBackend',
+                        'Elixir.PiFunkenBackend.Application',
+                        'Elixir.PiFunkenBackend.Example',
+                        'Elixir.PiFunkenBackend.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PiFunkenBackend.Application',[]}}]}.
