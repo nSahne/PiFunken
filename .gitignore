@@ -20,5 +20,5 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-pi_funken_backend-*.tar
+pi_funken_router-*.tar
 

@@ -1,8 +1,8 @@
-defmodule PiFunkenBackendTest do
+defmodule PiFunkenRouterTest do
   use ExUnit.Case
-  doctest PiFunkenBackend
+  doctest PiFunkenRouter
 
   test "greets the world" do
-    assert PiFunkenBackend.hello() == :world
+    assert PiFunkenRouter.hello() == :world
   end
 end

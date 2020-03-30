@@ -1,9 +1,9 @@
-defmodule PiFunkenBackend.MixProject do
+defmodule PiFunkenRouter.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :pi_funken_backend,
+      app: :pi_funken_router,
       version: "0.1.0",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
@@ -14,7 +14,7 @@ defmodule PiFunkenBackend.MixProject do
   def application do
     [
       extra_applications: [:logger, :cowboy, :plug],
-      mod: {PiFunkenBackend.Application, []}
+      mod: {PiFunkenRouter.Application, []}
     ]
   end
 
